@@ -1,0 +1,202 @@
+
+
+.head-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-top: 100px;
+}
+
+
+
+h2 span{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
+}
+
+
+
+h2{
+    font-size: 50px;
+    font-weight: 100;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    margin-right: -77px;
+}
+
+#hleft{
+    display: flex;
+    margin-right: -100px;
+
+}
+
+#icon{
+    background-color: #e84343;
+    width: 10px;
+    padding: 15px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px;
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-right: 12px;
+}
+
+#add{
+
+    font-size: 40px;
+    color: grey;
+    /* position: absolute; */
+    top: 106px;
+    left: 52px;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+#hright{
+    display: flex;
+    margin-right: 60px;
+}
+
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+#paris{
+    border: 1px solid red;
+    width: 230px;
+    height: 332px;
+    margin-left: 10px;
+    border-radius: 17px;
+    margin-right: 80px;
+    box-shadow: 9px 11px 15px grey;
+}
+
+
+#todo1{
+    border: 1px solid red;
+    width: 230px;
+    height: 332px;
+    margin-left: 10px;
+    border-radius: 17px;
+    margin-right: 50px;
+    box-shadow: 9px 11px 15px grey;
+}
+
+#todo2{
+    border: 1px solid red;
+    width: 230px;
+    height: 332px;
+    margin-left: 10px;
+    border-radius: 17px;
+    box-shadow: 9px 11px 15px grey;
+}
+
+
+#ptext{
+    
+    color: red;
+    font-size: 30px;
+    font-family: 'Roboto',sans-serif;
+    padding-left: 38px;
+    margin-bottom: 10px;
+
+}
+
+hr{
+    
+    width: 200px;
+    margin-left: 28px;
+
+}
+
+#txt1{
+    
+    color: red;
+    font-size: 25px;
+    margin-left: 40px;
+    /* font-weight: bold; */
+    font-family: 'Arial',sans-serif;
+    text-decoration: line-through;
+
+}
+
+#chckbox{
+    font-size: 22px;
+    font-family: 'Arial',sans-serif;
+    /* font-weight: bold; */
+    padding-left: 5px;
+}
+
+input{
+    
+    width: 22px;
+    height: 19px;
+
+}
+
+.blurimg{
+    display: flex;
+    justify-content: center;
+    filter: blur(6px);
+}
+
+
+.add-item{
+    border: 2px solid rgb(247, 92, 92);
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 10px 10px 8px lightgrey;
+    width: 480px;
+    height: 220px;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    left: 750px;
+    bottom: 480px;  
+    z-index: 1;
+}
+
+.add-item p{
+    font-size: 25px;
+    color: rgb(247, 92, 92);
+    
+    font-family: 'Roboto',sans-serif;
+}
+
+#in1{
+    width: 250px;
+    font-size: 25px;
+    height: 35px;
+    border: 2px solid rgb(247, 92, 92);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px lightgrey;
+}
+
+button{
+    color: white;
+    background-color: rgb(247, 92, 92);
+    border-radius: 30px;
+   font-size: 25px;
+    border: none;
+    padding: 8px;
+    width: 100px;
+    margin-top: 15px;
+    cursor: auto;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
