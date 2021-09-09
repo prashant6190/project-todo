@@ -1,32 +1,23 @@
-
-
-.head-container{
+.head-container {
     display: flex;
     justify-content: space-evenly;
     align-items: baseline;
     margin-top: 100px;
 }
 
-
-
-h2 span{
+h2 span {
     font-size: 65px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(55, 53, 53);
-
 }
 
-
-
-
-#hleft{
+#hleft {
     display: flex;
-    margin-right: -750px;
-
+    margin-right: -550px;
 }
 
-#icon{
+#icon {
     background-color: #ea4141;
     width: 10px;
     padding: 15px;
@@ -41,10 +32,7 @@ h2 span{
     margin-right: 12px;
 }
 
-
-#icon1{
-
-
+#icon1 {
     background-color: #ea4141;
     width: 10px;
     padding: 15px;
@@ -52,129 +40,116 @@ h2 span{
     display: flex;
     justify-content: center;
     /* right: 1px; */
-    left: 966px;
+    /* left: 804px; */
     position: absolute;
-    top: 637px;
+    top: 380px;
     align-items: center;
     border-radius: 80px;
     color: white;
     font-size: 20px;
-    margin-top: 40px;
-    margin-right: 12px;
+    right: 10px;
+    /* margin-top: 40px; */
+    /* margin-right: 0px; */
 }
 
+#add {
+    font-size: 40px;
+    color: grey;
+    position: absolute;
+    top: 213px;
+    right: 620px;
+    font-family: 'Roboto', sans-serif;
+    bottom: 60px;
+}
 
-    #add {
-        font-size: 40px;
-        color: grey;
-        position: absolute;
-        top: 207px;
-        left: 839px;
-        font-family: 'Roboto', sans-serif;
-        bottom: 60px;
-    }
-
-
-
-#hright{
+#hright {
     display: flex;
-    margin-right: 60px;
+    margin-right: 120px;
     justify-content: center;
 }
 
-
-.card-container{
+.card-container {
     display: flex;
     justify-content: center;
-    
 }
 
-
-#paris{
+#paris {
     border: 1px solid #ea4141;
     width: 430px;
     height: 432px;
     margin-left: 10px;
+    position: relative;
     border-radius: 17px;
+    margin-top: 10px;
     margin-right: 80px;
     box-shadow: 9px 11px 15px grey;
 }
 
-#paris hr{
+#paris hr {
     float: right;
     width: 290px;
 }
 
-
-
-#ptext{
-    
-    color: #ea4141;;
+#ptext {
+    color: #ea4141;
+    ;
     font-size: 30px;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding-left: 145px;
     margin-bottom: 10px;
-
 }
 
-hr{
-    
+hr {
     width: 200px;
     margin-left: 28px;
-
 }
 
-#txt1{
+#txt1 {
     color: #ea4141;
     padding-top: 35px;
     font-size: 25px;
     margin-left: 40px;
-    font-family: 'Arial',sans-serif;
+    font-family: 'Arial', sans-serif;
     text-decoration: line-through;
     text-align: center;
     font-weight: bold;
-
 }
 
-#chckbox{
+#chckbox {
     font-size: 22px;
-    font-family: 'Arial',sans-serif;
+    font-family: 'Arial', sans-serif;
     /* font-weight: bold; */
     padding-left: 5px;
     text-align: center;
 }
 
-input{
-    
+input {
     width: 22px;
     height: 19px;
-
 }
 
-#hr1{
+#hr1 {
     display: flex;
     position: absolute;
     float: left;
-    left: 510px;
+    left: 260px;
     top: 152px;
 }
 
-#hr2{
+#hr2 {
     display: flex;
-    position:absolute;
+    position: absolute;
     top: 152px;
-    right: 545px;
+    right: 240px;
 }
 
-
-.blurimg{
+.blurimg {
     display: flex;
     justify-content: center;
     filter: blur(8px);
 }
 
-
-.add-item{
+.add-item {
     border: 2px solid rgb(247, 92, 92);
     border-radius: 10px;
     background-color: white;
@@ -184,19 +159,18 @@ input{
     text-align: center;
     line-height: 40px;
     position: absolute;
-    left: 750px;
-    bottom: 400px;  
+    left: 475px;
+    bottom: 40px;
     z-index: 1;
 }
 
-.add-item p{
+.add-item p {
     font-size: 25px;
     color: rgb(247, 92, 92);
-    
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-#in1{
+#in1 {
     width: 250px;
     font-size: 25px;
     height: 35px;
@@ -205,11 +179,11 @@ input{
     box-shadow: 2px 2px 5px lightgrey;
 }
 
-button{
+button {
     color: white;
     background-color: rgb(247, 92, 92);
     border-radius: 30px;
-   font-size: 25px;
+    font-size: 25px;
     border: none;
     padding: 8px;
     width: 100px;
